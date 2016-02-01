@@ -8,6 +8,7 @@ class AutoModel(models.Model):
     name = models.CharField(max_length=255)
     author = models.ForeignKey(User)
 
+
     class Meta:
         ordering = ['name']
 
